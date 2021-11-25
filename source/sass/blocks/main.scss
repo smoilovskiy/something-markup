@@ -1,9 +1,72 @@
-@media (max-width: 767.9px) {
+@media (max-width: 1439.9px) {
   body {
     position: relative;
-    max-width: 767.9px;
+    max-width: 1439.9px;
     margin: 0 auto;
    }
+
+  .main-container {
+    height: 1708px;
+    padding: 90px 0 0 0;
+    background: -webkit-linear-gradient(top, #233148 0%,#233148 70%,#EAEFF5 70%,#EAEFF5 100%);
+  } 
+
+  .main-container__inner {
+    margin: 0 30px;
+    // border-left: 1px solid #D9DFE6;
+    // border-right: 1px solid #D9DFE6;
+  }
+
+  .blocks {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .block {
+    height: 216px;
+    margin: 20px 0;
+  }
+
+  .block__title {
+    font-family: "Proxima Nova";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+  }
+
+  .block__content {
+    font-family: "Proxima Nova";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #8796AE;
+  }
+
+  // .main-container__top {
+  //   background-color: #233148;
+  // }
+
+  // .main-container__bottom {
+  //   background-color: #EAEFF5;
+  // }
+
+  .title {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 10px 0 50px 0;
+  }
+
+
 
   .background-container {
     position: absolute;
@@ -22,29 +85,29 @@
 
 }
 
-@media (min-width: 1440px) {
-  body {
-    position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+// @media (min-width: 1440px) {
+//   body {
+//     position: relative;
+//     max-width: 1440px;
+//     margin: 0 auto;
+//   }
 
-  .background-container {
-    position: absolute;
-    width: 720px;
-    height: 696px;
-    top: 0;
-    right: 0;
-    background-image: url('../img/index-background-desktop.jpg');
-    background-repeat: no-repeat;
-    z-index: -1;
-  }
+//   .background-container {
+//     position: absolute;
+//     width: 720px;
+//     height: 696px;
+//     top: 0;
+//     right: 0;
+//     background-image: url('../img/index-background-desktop.jpg');
+//     background-repeat: no-repeat;
+//     z-index: -1;
+//   }
 
-  .main-container {
-    height: 100%;
-  }
+//   .main-container {
+//     height: 100%;
+//   }
 
 
 
-}
+// }
 
