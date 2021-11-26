@@ -6,9 +6,9 @@
    }
 
   .main-container {
-    height: 1708px;
+    height: 2400px;
     padding: 0;
-    background: -webkit-linear-gradient(top, #233148 0%,#233148 80%,#EAEFF5 80%,#EAEFF5 100%);
+    background: -webkit-linear-gradient(top, #233148 0%,#233148 64%,#EAEFF5 64%,#EAEFF5 100%);
   } 
 
   .main-container__inner {
@@ -17,8 +17,12 @@
     // border-right: 1px solid #D9DFE6;
   }
 
-  .title__icon {
-    margin: 100px 0 0 0;
+  .top-title__icon {
+    margin: 90px 0 0 0;
+  }
+
+  .bottom-title__icon {
+    margin: 536px 0 0 0;
   }
 
   .top-title {
@@ -27,30 +31,32 @@
     font-weight: 900;
     font-size: 30px;
     line-height: 37px;
-    letter-spacing: 0.9px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 10px 0 50px 0;
+    margin: 11px 0 38px 0;
   }
 
   .blocks {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+
   }
 
   .block {
     height: 216px;
-    margin: 20px 0;
+    margin: 3px 0 0 0;
   }
 
   .block__title {
     font-family: "Proxima Nova";
     font-weight: 500;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 27px;
     letter-spacing: 0.44px;
     color: #FFFFFF;
+    margin: 8px 0 28px 0;
   }
 
   .block__content {
@@ -62,17 +68,9 @@
     color: #8796AE;
   }
 
-  // .main-container__top {
-  //   background-color: #233148;
-  // }
-
-  // .main-container__bottom {
-  //   background-color: #EAEFF5;
-  // }
-
   .lightpaper {
     position: absolute;
-    top: 1300px;
+    top: 1148px;
     left: 0;
     height: 410px;
     width: 100%;
@@ -82,15 +80,19 @@
 
   .lightpaper__img {
     position: absolute;
-    top: 1240px;
-    right: -120px;
-    width: 350px;
-    height: 350px;
+    top: 1090px;
+    right: 0;
+    width: 310px;
+    height: 400px;
+    background-image: url('/img/broshure1.png');
+    background-repeat: no-repeat;
+    background-size: 155%;
+    background-position: 20px 0;
   }
 
   .lightpaper__svg {
     position: absolute;
-    top: 1450px;
+    top: 1310px;
     left: 0;
     width: 200px;
     height: 300px;
@@ -102,10 +104,10 @@
     font-weight: 800;
     font-size: 22px;
     line-height: 27px;
-    letter-spacing: 0.64px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 150px 0 0 50px;
+    margin: 190px 0 0 30px;
   }
 
   .lightpaper__subtitle {
@@ -113,31 +115,49 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.4px;
     color: #FFFFFF;
-    margin: 50px 0 0 50px;
+    margin: 36px 0 0 30px;
   }
 
   .download-bttn {
+    //margin: 400px 0 0 0;
     position: absolute;
-    left: 16%;
-    top: 1680px;
+    left: 50%; 
+    margin-left: -40%;
+    // left: auto;
+    // right: auto;
+    //left: 50%;
+  //  right: 50%;
+ //   overflow: auto;
+    top: 1530px;
     background-color: #FCCF18;
     font-family: "Proxima Nova";
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     color: #233148;;
-    padding: 15px 70px;
+    padding: 18px 94px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    //margin: 4px 2px;
     cursor: pointer;
     text-transform: uppercase;
+    //z-index: 100;
   }
 
-
+.bottom-title {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #233148;
+    margin: 11px 0 38px 0;
+}
 
 
 
@@ -152,35 +172,13 @@
     background-position: 50% 0%;
     z-index: -1;
    }
-
-
-
-
 }
 
-// @media (min-width: 1440px) {
-//   body {
-//     position: relative;
-//     max-width: 1440px;
-//     margin: 0 auto;
-//   }
-
-//   .background-container {
-//     position: absolute;
-//     width: 720px;
-//     height: 696px;
-//     top: 0;
-//     right: 0;
-//     background-image: url('../img/index-background-desktop.jpg');
-//     background-repeat: no-repeat;
-//     z-index: -1;
-//   }
-
-//   .main-container {
-//     height: 100%;
-//   }
-
-
-
-// }
+@media (min-width: 1440px) {
+  body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
 
