@@ -124,11 +124,6 @@
     position: absolute;
     left: 50%; 
     margin-left: -40%;
-    // left: auto;
-    // right: auto;
-    //left: 50%;
-  //  right: 50%;
- //   overflow: auto;
     top: 1530px;
     background-color: #FCCF18;
     font-family: "Proxima Nova";
@@ -140,10 +135,13 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    //margin: 4px 2px;
     cursor: pointer;
     text-transform: uppercase;
-    //z-index: 100;
+    transition: .3s;
+  }
+
+  .download-bttn:hover {
+    background-color: #ffffff;
   }
 
   .bottom-title {
@@ -314,24 +312,11 @@
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
+    transition: .3s;
   }
 
   .download-bttn:hover {
-    position: absolute;
-    left: 231px; 
-    top: 1432px;
-    background-color: #FCCF18;
-    font-family: "Proxima Nova";
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #233148;
-    padding: 29px 134px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-transform: uppercase;
+    background-color: #ffffff;
   }
 
   .bottom-title {
@@ -521,6 +506,11 @@
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
+    transition: .3s;
+  }
+
+  .download-bttn:hover {
+    background-color: #ffffff;
   }
 
   .bottom-title {
