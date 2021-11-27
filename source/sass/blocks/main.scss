@@ -21,8 +21,29 @@
 
   .main-container__inner {
     margin: 0 30px;
-    // border-left: 1px solid #D9DFE6;
-    // border-right: 1px solid #D9DFE6;
+  }
+
+  .firstOverlayLine,
+  .secondOverlayLine,
+  .thirdOverlayLine {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #D9DFE6;
+    opacity: 0.2;
+  }
+
+  .firstOverlayLine {
+    left: 30px;
+  }
+
+  .secondOverlayLine {
+    left: 50%;
+  }
+
+  .thirdOverlayLine {
+    right: 30px;
   }
 
   .top-title__icon {
@@ -188,8 +209,29 @@
 
   .main-container__inner {
     margin: 0 136px;
-    // border-left: 1px solid #D9DFE6;
-    // border-right: 1px solid #D9DFE6;
+  }
+
+  .firstOverlayLine,
+  .secondOverlayLine,
+  .thirdOverlayLine {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #D9DFE6;
+    opacity: 0.2;
+  }
+
+  .firstOverlayLine {
+    left: 136px;
+  }
+
+  .secondOverlayLine {
+    left: 50%;
+  }
+
+  .thirdOverlayLine {
+    right: 136px;
   }
 
   .top-title__icon {
@@ -372,8 +414,29 @@
 
   .main-container__inner {
     margin: 0 375px;
-    // border-left: 1px solid #D9DFE6;
-    // border-right: 1px solid #D9DFE6;
+  }
+
+  .firstOverlayLine,
+  .secondOverlayLine,
+  .thirdOverlayLine {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #D9DFE6;
+    opacity: 0.2;
+  }
+
+  .firstOverlayLine {
+    left: 375px;
+  }
+
+  .secondOverlayLine {
+    left: 50%;
+  }
+
+  .thirdOverlayLine {
+    right: 375px;
   }
 
   .top-title__icon {
