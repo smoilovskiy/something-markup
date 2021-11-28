@@ -64,7 +64,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 11px 0 38px 0;
-
+    width: 230px;
     transform: translate(0, 120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
@@ -126,6 +126,14 @@
     background-repeat: no-repeat;
     background-size: 155%;
     background-position: 20px 0;
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__img._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .lightpaper__svg {
@@ -146,6 +154,14 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 190px 0 0 30px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .lightpaper__subtitle {
@@ -156,12 +172,22 @@
     letter-spacing: 0.4px;
     color: #FFFFFF;
     margin: 36px 0 0 30px;
+    width: 200px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__subtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .download-bttn {
     position: absolute;
-    left: 50%; 
-    margin-left: -40%;
+    left: 0; 
+    right: 0;
+    margin: 0 10%;
     top: 1530px;
     background-color: #FCCF18;
     font-family: "Proxima Nova";
@@ -175,11 +201,12 @@
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
-    transition: .3s;
+    transform: translate(0, 0);
+    transition: all 0.5s ease 0s;
   }
 
   .download-bttn:hover {
-    background-color: #ffffff;
+    transform: translate(0, 10%);
   }
 
   .bottom-title {
@@ -192,6 +219,7 @@
     text-transform: uppercase;
     color: #233148;
     margin: 11px 0 38px 0;
+    width: 300px;
     transform: translate(0, 120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
@@ -342,6 +370,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 0;
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__img._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .lightpaper__svg {
@@ -353,7 +389,7 @@
     opacity: 0.1;
   }
 
-  .lightpaper__title {
+  .lightpaper__title  {
     font-family: "Proxima Nova";
     font-weight: 800;
     font-size: 32px;
@@ -362,6 +398,14 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 65px 0 0 138px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .lightpaper__subtitle {
@@ -376,6 +420,14 @@
     width: 240px;
     color: #FFFFFF;
     margin: 36px 0 0 30px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__subtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .download-bttn {
@@ -394,11 +446,12 @@
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
-    transition: .3s;
+    transform: translate(0, 0);
+    transition: all 0.5s ease 0s;
   }
 
   .download-bttn:hover {
-    background-color: #ffffff;
+    transform: translate(0, 10%);
   }
 
   .bottom-title {
@@ -583,6 +636,14 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 65px 0 0 375px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .lightpaper__subtitle {
@@ -597,6 +658,14 @@
     width: 240px;
     color: #FFFFFF;
     margin: 36px 0 0 30px;
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+  }
+
+  .lightpaper__subtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 
   .download-bttn {
@@ -615,29 +684,12 @@
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
+    transform: translate(0, 0);
+    transition: all 0.5s ease 0s;
   }
 
   .download-bttn:hover {
-    position: absolute;
-    left: 471px; 
-    top: 1432px;
-    background-color: #FCCF18;
-    font-family: "Proxima Nova";
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #233148;
-    padding: 29px 134px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: .3s;
-  }
-
-  .download-bttn:hover {
-    background-color: #ffffff;
+    transform: translate(0, 10%);
   }
 
   .bottom-title {
@@ -661,5 +713,3 @@
     opacity: 1;
   }
 }
-
-
